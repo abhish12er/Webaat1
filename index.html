@@ -64,7 +64,7 @@
         }
 
         section {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         h2 {
@@ -76,6 +76,12 @@
             max-width: 100%;
             border-radius: 6px;
             margin-top: 10px;
+        }
+
+        video {
+            width: 100%;
+            margin-top: 10px;
+            border-radius: 6px;
         }
 
         table {
@@ -129,6 +135,7 @@
 
 <div class="layout">
     <main>
+
         <section>
             <h2>About Healthy Living</h2>
             <p>
@@ -141,7 +148,21 @@
         <section>
             <h2>Healthy Food Example</h2>
             <p>Eating fresh fruits and vegetables improves immunity and energy.</p>
-            <img src="https://via.placeholder.com/600x300" alt="Healthy Food">
+
+            <!-- WORKING IMAGE -->
+            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+                 alt="Healthy Food Plate">
+        </section>
+
+        <section>
+            <h2>Fitness & Exercise Video</h2>
+            <p>Regular physical activity keeps the body fit and mind active.</p>
+
+            <!-- WORKING VIDEO -->
+            <video controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </section>
 
         <section>
@@ -165,6 +186,7 @@
                 </tr>
             </table>
         </section>
+
     </main>
 
     <aside>
